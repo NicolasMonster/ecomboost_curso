@@ -209,6 +209,7 @@
             .stat-label { font-size: 0.85rem; }
 
             .results-grid { grid-template-columns: 1fr; }
+            .testimonios-grid { grid-template-columns: 1fr !important; }
 
             .before-after { grid-template-columns: 1fr; gap: 1.5rem; }
             .before-after-card { padding: 1.5rem; }
@@ -482,23 +483,21 @@
     </div>
 </section>
 
-<!-- RESULTADOS — solo imágenes -->
+<!-- RESULTADOS DE ALUMNOS -->
 <section class="section-light">
     <div class="container">
         <div class="section-header">
-            <h2>Resultados Reales de Clientes</h2>
-            <p>Aprendizaje validado en la vida real. Testeado en +100 marcas por más de 5 años.</p>
+            <div class="eyebrow">Casos reales</div>
+            <h2>Resultados de alumnos</h2>
+            <p>Números reales de tiendas argentinas que aplicaron el método.</p>
         </div>
-        <div class="results-grid">
-            <div class="result-img-slot">
-                <div class="result-img-placeholder">[ Imagen resultado 1 ]<br><span style="font-size:0.75rem">Reemplazá con img tag</span></div>
-            </div>
-            <div class="result-img-slot">
-                <div class="result-img-placeholder">[ Imagen resultado 2 ]<br><span style="font-size:0.75rem">Reemplazá con img tag</span></div>
-            </div>
-            <div class="result-img-slot">
-                <div class="result-img-placeholder">[ Imagen resultado 3 ]<br><span style="font-size:0.75rem">Reemplazá con img tag</span></div>
-            </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2rem;" class="testimonios-grid">
+            <img src="res1.jpg" alt="Resultado alumno" style="width:100%;border-radius:12px;border:1.5px solid #111;object-fit:cover;">
+            <img src="res2.jpg" alt="Resultado alumno" style="width:100%;border-radius:12px;border:1.5px solid #111;object-fit:cover;">
+            <img src="res3.jpg" alt="Resultado alumno" style="width:100%;border-radius:12px;border:1.5px solid #111;object-fit:cover;">
+            <img src="res4.jpg" alt="Resultado alumno" style="width:100%;border-radius:12px;border:1.5px solid #111;object-fit:cover;">
+            <img src="res5.jpg" alt="Resultado alumno" style="width:100%;border-radius:12px;border:1.5px solid #111;object-fit:cover;">
+            <img src="res6.jpg" alt="Resultado alumno" style="width:100%;border-radius:12px;border:1.5px solid #111;object-fit:cover;">
         </div>
     </div>
 </section>
