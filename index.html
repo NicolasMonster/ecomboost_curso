@@ -253,6 +253,23 @@
         .logo-slot img { height: 50px; width: 120px; object-fit: contain; }
 
     </style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1659041045480788');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1659041045480788&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 
@@ -292,7 +309,7 @@
                 <iframe src="https://player.vimeo.com/video/1181397647?badge=0&autopause=0&player_id=0&app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VSL EcomBoost"></iframe>
             </div>
             <div class="cta-container">
-                <a href="#precio" class="cta-button">Entrar al programa ahora</a>
+                <a href="#precio" class="cta-button" onclick="fbq('track', 'AddToCart')">Entrar al programa ahora</a>
             </div>
         </div>
         </div></div>
@@ -438,7 +455,7 @@
             </div>
         </div>
         <div style="text-align:center;margin-top:3rem">
-            <a href="#precio" class="cta-button">Quiero Esto Para Mi Negocio</a>
+            <a href="#precio" class="cta-button" onclick="fbq('track', 'AddToCart')">Quiero Esto Para Mi Negocio</a>
         </div>
     </div>
 </section>
@@ -501,7 +518,7 @@
         </div>
 
         <div style="text-align:center;margin-top:3rem;">
-            <a href="#precio" class="cta-button">Quiero todos los bonos</a>
+            <a href="#precio" class="cta-button" onclick="fbq('track', 'AddToCart')">Quiero todos los bonos</a>
         </div>
     </div>
 </section>
@@ -554,7 +571,7 @@
         </div>
 
         <div style="text-align:center;margin-top:2rem;">
-            <a href="#precio" class="cta-button">Quiero acceder ahora</a>
+            <a href="#precio" class="cta-button" onclick="fbq('track', 'AddToCart')">Quiero acceder ahora</a>
         </div>
     </div>
 </section>
@@ -726,7 +743,7 @@
             </div>
         </div>
         <div style="text-align:center;margin-top:3rem;">
-            <a href="#precio" class="cta-button">Quiero acceso ahora</a>
+            <a href="#precio" class="cta-button" onclick="fbq('track', 'AddToCart')">Quiero acceso ahora</a>
         </div>
     </div>
 </section>
@@ -769,7 +786,7 @@
             </div>
         </div>
 
-        <a href="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/?source=link&preference-id=299606608-d9a2acfe-cf04-4594-8369-63927cd927e0&router-request-id=62d7bb7f-ef9e-4692-8c0f-c052ee2c4b1e" class="cta-button" target="_blank" style="font-size:1.2rem;padding:1.4rem 3rem;">Quiero acceder por $21.450 →</a>
+        <a href="https://www.mercadopago.com.ar/checkout/v1/payment/redirect/?source=link&preference-id=299606608-d9a2acfe-cf04-4594-8369-63927cd927e0&router-request-id=62d7bb7f-ef9e-4692-8c0f-c052ee2c4b1e" class="cta-button" target="_blank" onclick="fbq('track', 'AddPaymentInfo')" style="font-size:1.2rem;padding:1.4rem 3rem;">Quiero acceder por $21.450 →</a>
         <br><br>
         <div class="trust-badge">🔒 NO existe algo igual en el mercado, ni con este contenido ni a este precio</div>
     </div>
